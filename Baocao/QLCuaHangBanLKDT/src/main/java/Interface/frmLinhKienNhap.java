@@ -349,7 +349,7 @@ public final class frmLinhKienNhap extends javax.swing.JFrame {
                 {null, null, null, null, null, null, null}
             },
             new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4", "Title 5", "Title 6", "Title 6"
+                "Title 1", "Title 2", "Title 3", "Title 4", "Title 5", "Title 6", "Title 7"
             }
         ) {
             Class[] types = new Class [] {
@@ -430,10 +430,9 @@ public final class frmLinhKienNhap extends javax.swing.JFrame {
                         .addGap(22, 22, 22)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(txtGiaBan, javax.swing.GroupLayout.DEFAULT_SIZE, 240, Short.MAX_VALUE)
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(cbHang, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(txtTenLK)
-                                .addComponent(cbLoai, 0, 240, Short.MAX_VALUE)))
+                            .addComponent(cbHang, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(txtTenLK)
+                            .addComponent(cbLoai, 0, 240, Short.MAX_VALUE))
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
@@ -772,7 +771,7 @@ public final class frmLinhKienNhap extends javax.swing.JFrame {
                     linhKien.setLoai(cbLoai.getSelectedItem().toString());
                     linhKien.setSoLuong((Integer) spinnerSoLuongLK.getValue());
                     linhKien.setGiaBan(Float.valueOf(txtGiaBan.getText()));
-                    linhKien.setLoai(cbHang.getSelectedItem().toString());
+                    linhKien.setHang(cbHang.getSelectedItem().toString());
                     linhKien.setHanBaoHanh(txtHanBaoHanh.getText());
 
                     LinhKienNhap linhKienNhap = new LinhKienNhap();

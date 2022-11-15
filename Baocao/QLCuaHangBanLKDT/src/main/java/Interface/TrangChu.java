@@ -176,7 +176,6 @@ public final class TrangChu extends javax.swing.JFrame {
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         MenuItemQLLK = new javax.swing.JMenuItem();
-        btnQuanLyTK = new javax.swing.JMenuItem();
         MenuitemQLLKDaNhap = new javax.swing.JMenuItem();
         MenuItemQLLKDaBan = new javax.swing.JMenuItem();
         MenuitemQLMaGiamGia = new javax.swing.JMenuItem();
@@ -401,15 +400,6 @@ public final class TrangChu extends javax.swing.JFrame {
         });
         jMenu1.add(MenuItemQLLK);
 
-        btnQuanLyTK.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        btnQuanLyTK.setText("Quản lý tài khoản");
-        btnQuanLyTK.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnQuanLyTKActionPerformed(evt);
-            }
-        });
-        jMenu1.add(btnQuanLyTK);
-
         MenuitemQLLKDaNhap.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         MenuitemQLLKDaNhap.setText("Quản lý nhập linh kiện");
         MenuitemQLLKDaNhap.addActionListener(new java.awt.event.ActionListener() {
@@ -604,11 +594,6 @@ public final class TrangChu extends javax.swing.JFrame {
 
     }//GEN-LAST:event_frmChangePasswordActionPerformed
 
-    private void btnQuanLyTKActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnQuanLyTKActionPerformed
-        // TODO add your handling code here:
-
-    }//GEN-LAST:event_btnQuanLyTKActionPerformed
-
     private void menuQLLKActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuQLLKActionPerformed
         // TODO add your handling code here:
 
@@ -758,7 +743,6 @@ public final class TrangChu extends javax.swing.JFrame {
     private javax.swing.JButton btnLogout;
     private javax.swing.JButton btnNhapLK;
     private javax.swing.JButton btnQLLK;
-    private javax.swing.JMenuItem btnQuanLyTK;
     private javax.swing.JButton btnStatistic;
     private javax.swing.JComboBox<String> cbHang;
     private javax.swing.JMenuItem frmChangePassword;

@@ -59,8 +59,6 @@ DROP TABLE LinhKien
 
 SELECT * FROM LinhKien
 
-
-
 CREATE TABLE LinhKienNhap
 (
     MaNhap VARCHAR(10) PRIMARY KEY,

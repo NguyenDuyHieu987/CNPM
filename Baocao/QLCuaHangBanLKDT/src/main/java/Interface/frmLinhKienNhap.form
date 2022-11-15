@@ -365,7 +365,7 @@
                     <Column editable="true" title="Title 4" type="java.lang.Integer"/>
                     <Column editable="true" title="Title 5" type="java.lang.Double"/>
                     <Column editable="true" title="Title 6" type="java.lang.String"/>
-                    <Column editable="true" title="Title 6" type="java.lang.String"/>
+                    <Column editable="true" title="Title 7" type="java.lang.String"/>
                   </Table>
                 </Property>
                 <Property name="autoResizeMode" type="int" value="4"/>
@@ -459,11 +459,9 @@
                           <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
                               <Component id="txtGiaBan" alignment="0" pref="240" max="32767" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="cbHang" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="txtTenLK" max="32767" attributes="0"/>
-                                  <Component id="cbLoai" pref="240" max="32767" attributes="0"/>
-                              </Group>
+                              <Component id="cbHang" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtTenLK" max="32767" attributes="0"/>
+                              <Component id="cbLoai" pref="240" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
